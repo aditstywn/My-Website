@@ -1,0 +1,51 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+/* Navbar */
+.navbar {
+  border-bottom: 4px solid black;
+}
+.navbar-nav a {
+  color: black;
+}
+
+/* Carausol */
+.carausol {
+  margin-top: 6rem;
+  border-radius: 30px;
+}
+.carausol .c1 img {
+  height: 400px;
+  border-radius: 30px;
+  background-color: black;
+}
+.carausol .c2 .peta iframe {
+  border-radius: 20px;
+}
+
+/* Baner */
+.baner h1 {
+  background-color: red;
+  border-radius: 0px 50px 0px 50px;
+  color: white;
+}
+
+/* Produk */
+.produk img {
+  height: 250px;
+}
+.produk .p1 .card,
+.produk .p2 .card {
+  border-radius: 0px 50px 0px 80px;
+}
+.produk p {
+  color: red;
+}
+
+/* Footer */
+
+footer a {
+  text-decoration: none;
+  color: white;
+}
