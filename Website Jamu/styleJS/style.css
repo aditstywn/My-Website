@@ -1,0 +1,94 @@
+/* navbar */
+.navbar {
+  background-color: transparent;
+  transition: 1s;
+}
+.navbar.muncul {
+  background-color: black;
+  border-bottom: 1px solid white;
+}
+/* jumbotron */
+.logo,
+.nama,
+.kata {
+  opacity: 0;
+  transition: 3s;
+}
+
+.logo {
+  transform: translate(0, -150px);
+}
+.nama {
+  transform: translate(-150px, 0);
+}
+.kata {
+  transform: translate(150px, 0);
+}
+.logo.muncul,
+.nama.muncul,
+.kata.muncul {
+  opacity: 1;
+  transform: translate(0, 0);
+}
+
+/* about */
+.kiri,
+.kanan {
+  opacity: 0;
+  transition: 2s;
+}
+
+.kiri {
+  transform: translate(-100px, 0);
+}
+.kanan {
+  transform: translate(100px, 0);
+}
+
+.kiri.muncul,
+.kanan.muncul {
+  opacity: 1;
+  transform: translate(0, 0);
+}
+
+/* tabpane */
+.sejarah {
+  opacity: 0;
+  transition: 2s;
+  transform: translate(0, 100px);
+}
+.sejarah.muncul {
+  opacity: 1;
+  transform: translate(0, 0);
+}
+
+/* produk */
+.produk .card {
+  opacity: 0;
+  transform: translate(0, -40px);
+  transition: 1s;
+}
+.produk .card.muncul {
+  opacity: 1;
+  transform: translate(0, 0);
+}
+
+/* komposisi */
+.komposisi .card {
+  opacity: 0;
+  transform: translate(0, 100px);
+  transition: 1s;
+}
+.komposisi .card.muncul {
+  opacity: 1;
+  transform: translate(0, 0);
+}
+
+/* galery */
+.galery .rounded-circle {
+  opacity: 0;
+  transition: 1s;
+}
+.galery .rounded-circle.muncul {
+  opacity: 1;
+}
